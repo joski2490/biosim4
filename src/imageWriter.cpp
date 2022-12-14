@@ -9,10 +9,10 @@
 #include <chrono>
 #include "simulator.h"
 #include "imageWriter.h"
-#define cimg_use_opencv 1
-#define cimg_display 0
-#include "CImg.h"
-
+//#define cimg_use_opencv 1
+//#define cimg_display 0
+//#include "CImg.h"
+/*
 namespace BS {
 
 cimg_library::CImgList<uint8_t> imageList;
@@ -78,6 +78,7 @@ void saveOneFrameImmed(const ImageFrameData &data)
 
     //CImgDisplay local(image, "biosim3");
 }
+*/
 
 
 // Starts the image writer asynchronous thread.
