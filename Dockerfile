@@ -10,6 +10,12 @@ RUN apt-get update && apt-get install -yqq \
 
 RUN pip install igraph
 
+RUN sudo add-apt-repository ppa:codeblocks-devs/release
+
+RUN sudo apt-get update
+
+RUN sudo apt-get install codeblocks codeblocks-contrib
+
 RUN apt-get update && apt-get install -yqq \
 	cimg-dev \
 	gnuplot \
