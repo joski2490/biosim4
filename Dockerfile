@@ -12,7 +12,7 @@ RUN pip install igraph
 
 RUN add-apt-repository ppa:codeblocks-devs/release
 
-RUN sudo apt-get update
+RUN apt-get update
 
 RUN apt-get install codeblocks codeblocks-contrib
 
